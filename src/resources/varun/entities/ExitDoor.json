@@ -1,0 +1,72 @@
+{
+  "entityName": "ExitDoor",
+  "image": "Door.png",
+  "health": 1,
+  "fixed": true,
+  "permeable": false,
+
+  "xPos": 300,
+  "yPos": 275,
+  "xVel": 0,
+  "yVel": 0,
+  "maxXVel": 0,
+  "maxYVel": 0,
+  "height": 100,
+  "width": 100,
+  "scheme": "NoControls",
+  "actionBundles": [
+
+  ],
+  "collisionBundles": [
+    {
+      "ID": "varun.Interact",
+      "Control": [
+        {
+          "orientation": "N",
+          "param": "true",
+          "action": "SetPermeable"
+        },
+        {
+          "orientation": "S",
+          "param": "true",
+          "action": "SetPermeable"
+        },
+        {
+          "orientation": "W",
+          "param": "true",
+          "action": "SetPermeable"
+        },
+        {
+          "orientation": "E",
+          "param": "true",
+          "action": "SetPermeable"
+        }
+      ]
+    },
+    {
+      "ID": "varun.Interact",
+      "Control": [
+        {
+          "orientation": "N",
+          "param": "varun\/images\/OpenDoor.png",
+          "action": "ChangeImage"
+        },
+        {
+          "orientation": "S",
+          "param": "varun\/images\/OpenDoor.png",
+          "action": "ChangeImage"
+        },
+        {
+          "orientation": "W",
+          "param": "varun\/images\/OpenDoor.png",
+          "action": "ChangeImage"
+        },
+        {
+          "orientation": "E",
+          "param": "varun\/images\/OpenDoor.png",
+          "action": "ChangeImage"
+        }
+      ]
+    }
+  ]
+}

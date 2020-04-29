@@ -69,6 +69,14 @@
           "5": ["20-40"]
         }
       ]
+    },
+    {
+      "EntityName": "dinorun.Wizard",
+      "Arrangement": [
+        {
+          "3": ["13"]
+        }
+      ]
     }
   ]
 }

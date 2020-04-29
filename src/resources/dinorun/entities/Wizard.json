@@ -1,0 +1,18 @@
+{
+  "entityName": "Wizard",
+  "image": "wiz.gif",
+  "fixed": true,
+  "permeable": true,
+  "xPos": -100,
+  "yPos": -100,
+  "xVel": 0,
+  "yVel": 0,
+  "maxXVel": 0,
+  "maxYVel": 0,
+  "height": 300,
+  "width": 150,
+  "health":1,
+  "scheme": "NoControls",
+  "actionBundles": [
+  ]
+}

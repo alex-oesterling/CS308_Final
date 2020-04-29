@@ -1,9 +1,10 @@
+
 {
   "image": "fireluigi_walk.gif",
   "yPos": 100,
-  "scheme": "Keyboard",
+  "scheme": "GamePad",
   "permeable": false,
-  "health": 1,
+  "health": 3,
   "xPos": 100,
   "xVel": 10,
   "entityName": "Fire_Luigi",
@@ -339,8 +340,8 @@
       "ID": "DEFAULT"
     }
   ],
-  "maxXVel": 1000,
-  "width": 100,
+  "maxXVel": 500,
+  "width": 81,
   "fixed": false,
   "maxYVel": 1000,
   "yVel": 10,
@@ -369,7 +370,7 @@
           "action": "SetForwards"
         }
       ],
-      "ID": "UP_Arrow"
+      "ID": "LEFT_THUMBSTICK_LEFT"
     },
     {
       "Control": [
@@ -378,7 +379,7 @@
           "action": "AccelerateY"
         }
       ],
-      "ID": "UP_Arrow"
+      "ID": "LEFT_THUMBSTICK_UP"
     },
     {
       "Control": [
@@ -387,7 +388,7 @@
           "action": "AccelerateY"
         }
       ],
-      "ID": "K"
+      "ID": "LEFT_THUMBSTICK_DOWN"
     },
     {
       "Control": [
@@ -415,7 +416,7 @@
           "action": "ChangeImage"
         }
       ],
-      "ID": "U"
+      "ID": "X_BUTTON"
     },
     {
       "Control": [
@@ -424,8 +425,9 @@
           "action": "ChangeImage"
         }
       ],
-      "ID": "Y"
+      "ID": "Y_BUTTON"
     }
   ],
-  "height": 100
+  "height": 80
 }
+

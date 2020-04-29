@@ -1,0 +1,30 @@
+{
+  "levelType": "FiniteLevel",
+  "players": "1",
+  "tileArrangement": [
+    {
+      "EntityName": "varun.Table",
+      "Arrangement": [
+        {
+          "0": [
+            "0",
+            "2",
+            "4",
+            "6",
+            "8",
+            "10",
+            "12"
+          ]
+        }
+      ]
+    }
+  ],
+  "levelName": "WestUnion",
+  "playerArrangement": [
+  ],
+  "tileWidth": 50,
+  "enemyArrangement": [
+
+  ],
+  "tileHeight": 50
+}

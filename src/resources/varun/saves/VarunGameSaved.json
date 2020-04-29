@@ -1,0 +1,1 @@
+{"gameName":"Varun","playerCount":"1","physicsProfile":[{"Friction":"0","Drag":"0","Gravity":"0"}],"levelArrangement":[{"Level_1":"varun.WestUnion"}],"playerArrangement":[{"EntityName":"varun.Varun","Arrangement":{"X":"100","Y":"100"}}],"gameStatusProfile":[{"scrollingStatusY":"1","spawningInterval":"0","scrollingStatusX":"1","levelSpawnOffset":"0","startingLevelIndex":"0"}]}

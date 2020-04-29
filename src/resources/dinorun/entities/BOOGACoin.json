@@ -13,7 +13,6 @@
   "maxYVel": 0,
   "height": 50,
   "width": 50,
-  "health":1,
   "scheme": "NoControls",
   "actionBundles": [
   ],

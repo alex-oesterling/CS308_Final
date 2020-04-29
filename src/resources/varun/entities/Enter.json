@@ -1,0 +1,46 @@
+{
+  "entityName": "Enter",
+  "image": "interactblock.png",
+  "health": 1,
+  "fixed": false,
+  "permeable": true,
+
+  "xPos": -1000,
+  "yPos": -100,
+  "xVel": 10,
+  "yVel": 10,
+  "maxXVel": 200,
+  "maxYVel": 200,
+  "height": 100,
+  "width": 100,
+  "scheme": "NoControls",
+  "actionBundles": [
+  ],
+  "collisionBundles": [
+    {
+      "ID": "varun.Bus",
+      "Control": [
+        {
+          "orientation": "S",
+          "param": "",
+          "action": "Die"
+        },
+        {
+          "orientation": "N",
+          "param": "",
+          "action": "Die"
+        },
+        {
+          "orientation": "E",
+          "param": "",
+          "action": "Die"
+        },
+        {
+          "orientation": "W",
+          "param": "",
+          "action": "Die"
+        }
+      ]
+    }
+  ]
+}

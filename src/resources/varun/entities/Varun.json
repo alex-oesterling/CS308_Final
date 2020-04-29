@@ -1,0 +1,268 @@
+{
+  "entityName": "Varun",
+  "image": "varun_right.gif",
+  "health": 1,
+  "xPos": 100,
+  "yPos": 100,
+  "xVel": 10,
+  "yVel": 10,
+  "fixed": false,
+  "permeable": false,
+  "maxXVel": 500,
+  "maxYVel": 500,
+
+  "height": 50,
+  "width": 51,
+  "scheme": "Keyboard",
+  "actionBundles": [
+    {
+      "Control": [
+        {
+          "param": "varun.Interact",
+          "action": "SpawnRelative",
+          "coolDown": "1000"
+        }
+      ],
+      "ID": "Z"
+    },
+    {
+      "Control": [
+        {
+          "param": "varun.Enter",
+          "action": "SpawnRelative",
+          "coolDown": "1000"
+        }
+      ],
+      "ID": "E"
+    },
+    {
+      "ID": "D",
+      "Control": [
+        {
+          "param": "varun\/images\/varun_right.gif",
+          "action": "ChangeImage"
+        },
+        {
+          "action": "MoveX",
+          "param": "5.0"
+        }
+      ]
+    },
+    {
+      "ID": "A",
+      "Control": [
+        {
+          "param": "varun\/images\/varun_left.gif",
+          "action": "ChangeImage"
+        },
+        {
+          "param": "-5.0",
+          "action": "MoveX"
+        }
+      ]
+    },
+    {
+      "ID": "W",
+      "Control": [
+        {
+          "param": "varun\/images\/varun_up.gif",
+          "action": "ChangeImage"
+        },
+        {
+          "param": "-5.00",
+          "action": "MoveY"
+        }
+      ]
+    },
+    {
+      "ID": "S",
+      "Control": [
+        {
+          "param": "varun\/images\/varun_down.gif",
+          "action": "ChangeImage"
+        },
+        {
+          "param": "5.00",
+          "action": "MoveY"
+        }
+      ]
+    }
+  ],
+  "collisionBundles": [
+    {
+      "ID": "varun.ExitDoor",
+      "Control": [
+        {
+          "orientation": "N",
+          "param": "1",
+          "action": "LevelSwitch"
+        },
+        {
+          "orientation": "N",
+          "param": "640",
+          "action": "SetX"
+        },
+        {
+          "orientation": "N",
+          "param": "680",
+          "action": "SetY"
+        }
+      ]
+    },
+    {
+      "ID": "varun.WuMat",
+      "Control": [
+        {
+          "orientation": "S",
+          "param": "2",
+          "action": "LevelSwitch"
+        },
+        {
+          "orientation": "N",
+          "param": "2",
+          "action": "LevelSwitch"
+        },
+        {
+          "orientation": "W",
+          "param": "2",
+          "action": "LevelSwitch"
+        },
+        {
+          "orientation": "E",
+          "param": "2",
+          "action": "LevelSwitch"
+        },
+        {
+          "orientation": "W",
+          "param": "640",
+          "action": "SetX"
+        },
+        {
+          "orientation": "W",
+          "param": "680",
+          "action": "SetY"
+        }
+      ]
+    },
+    {
+      "ID": "varun.Enter",
+      "Control": [
+        {
+          "orientation": "W",
+          "param": "0",
+          "action": "SetOpacity"
+        },
+        {
+          "orientation": "E",
+          "param": "0",
+          "action": "SetOpacity"
+        },
+        {
+          "orientation": "N",
+          "param": "0",
+          "action": "SetOpacity"
+        },
+        {
+          "orientation": "S",
+          "param": "0",
+          "action": "SetOpacity"
+        },
+        {
+          "orientation": "S",
+          "param": "+300.0",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "W",
+          "param": "300",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "N",
+          "param": "300",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "E",
+          "param": "300",
+          "action": "VelocityX"
+        }
+      ]
+    },
+    {
+      "ID": "varun.OpaqueVarun",
+      "Control": [
+        {
+          "orientation": "W",
+          "param": "100",
+          "action": "SetOpacity"
+        },
+        {
+          "orientation": "E",
+          "param": "100",
+          "action": "SetOpacity"
+        },
+        {
+          "orientation": "N",
+          "param": "100",
+          "action": "SetOpacity"
+        },
+        {
+          "orientation": "S",
+          "param": "100",
+          "action": "SetOpacity"
+        },
+        {
+          "orientation": "S",
+          "param": "0",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "W",
+          "param": "0",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "N",
+          "param": "0",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "E",
+          "param": "0",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "E",
+          "action": "ChangeImage",
+          "param": "varun\/images\/varun_down.gif"
+        },
+        {
+          "orientation": "W",
+          "action": "ChangeImage",
+          "param": "varun\/images\/varun_down.gif"
+        },
+        {
+          "orientation": "N",
+          "action": "ChangeImage",
+          "param": "varun\/images\/varun_down.gif"
+        },
+        {
+          "orientation": "S",
+          "action": "ChangeImage",
+          "param": "varun\/images\/varun_down.gif"
+        }
+      ]
+    },
+    {
+      "ID": "DEFAULT",
+      "Control": [
+        {
+          "action": "NoAction",
+          "param": "false",
+          "orientation": "DEFAULT"
+        }
+      ]
+    }
+  ]
+}

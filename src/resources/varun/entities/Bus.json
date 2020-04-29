@@ -1,0 +1,73 @@
+{
+  "entityName": "Bus",
+  "image": "Bus.png",
+  "health": 1,
+  "fixed": true,
+  "permeable": true,
+
+  "xPos": 300,
+  "yPos": 275,
+  "xVel": 0,
+  "yVel": 0,
+  "maxXVel": 1000,
+  "maxYVel": 1000,
+  "height": 100,
+  "width": 300,
+  "scheme": "NoControls",
+  "actionBundles": [
+
+  ],
+  "collisionBundles": [
+    {
+      "ID": "varun.Enter",
+      "Control": [
+        {
+          "orientation": "S",
+          "param": "+300.0",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "W",
+          "param": "300",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "N",
+          "param": "300",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "E",
+          "param": "300",
+          "action": "VelocityX"
+        }
+      ]
+    },
+    {
+      "ID": "varun.StopBus",
+      "Control": [
+        {
+          "orientation": "S",
+          "param": "0.0",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "W",
+          "param": "0.0",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "N",
+          "param": "0.0",
+          "action": "VelocityX"
+        },
+        {
+          "orientation": "E",
+          "param": "0.0",
+          "action": "VelocityX"
+        }
+      ]
+    }
+  ]
+
+}

@@ -1,33 +1,36 @@
 {
   "gameName": "Varun",
-  "players": "1",
+  "playerCount": "1",
   "physicsProfile": [
     {
-      "Friction": "20",
-      "Drag": "1",
-      "Gravity": "20"
+      "Friction": "0",
+      "Drag": "0",
+      "Gravity": "0"
     }
   ],
   "levelArrangement": [
     {
-      "Level_2": "mario.Level2",
-      "Level_1": "mario.MarioLevel"
+      "Level_1": "varun.Dorm",
+      "Level_2": "varun.Outside",
+      "Level_3": "varun.WestUnion"
     }
   ],
   "playerArrangement": [
     {
-      "EntityName": "mario.Mario_Fire",
+      "EntityName": "varun.Varun",
       "Arrangement": {
         "X": "100",
         "Y": "100"
       }
-    },
+    }
+  ],
+  "gameStatusProfile": [
     {
-      "EntityName": "mario.P2_Luigi_Fire",
-      "Arrangement": {
-        "X": "0",
-        "Y": "100"
-      }
+      "scrollingStatusY": "1",
+      "spawningInterval": "0",
+      "scrollingStatusX": "1",
+      "levelSpawnOffset": "0",
+      "startingLevelIndex": "0"
     }
   ]
 }

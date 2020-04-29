@@ -64,6 +64,46 @@
       ]
     },
     {
+      "ID": "mario.Pipetop",
+      "Control": [
+        {
+          "action": "Die",
+          "param": "false",
+          "orientation": "W"
+        },
+        {
+          "action": "Die",
+          "param": "false",
+          "orientation": "E"
+        },
+        {
+          "action": "Die",
+          "param": "false",
+          "orientation": "N"
+        }
+      ]
+    },
+    {
+      "ID": "mario.Pipebody",
+      "Control": [
+        {
+          "action": "Die",
+          "param": "false",
+          "orientation": "W"
+        },
+        {
+          "action": "Die",
+          "param": "false",
+          "orientation": "E"
+        },
+        {
+          "action": "Die",
+          "param": "false",
+          "orientation": "N"
+        }
+      ]
+    },
+    {
       "ID": "DEFAULT",
       "Control": [
         {

@@ -1,0 +1,24 @@
+{
+  "entityName": "Wu",
+  "image": "wu.png",
+  "health": 1,
+  "fixed": true,
+  "permeable": false,
+
+  "xPos": 300,
+  "yPos": 275,
+  "xVel": 0,
+  "yVel": 0,
+  "maxXVel": 0,
+  "maxYVel": 0,
+  "height": 200,
+  "width": 200,
+  "scheme": "NoControls",
+  "actionBundles": [
+
+  ],
+  "collisionBundles": [
+
+  ]
+
+}

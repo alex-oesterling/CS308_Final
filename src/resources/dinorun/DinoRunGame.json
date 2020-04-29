@@ -26,8 +26,8 @@
       "Level_E": "dinorun.TreeLevel",
       "Level_F": "dinorun.ShrubLevel",
       "Level_G": "dinorun.DoublePlatformLevel",
-      "Level_I": "dinorun.TreeStumpGapLevel",
       "Level_H": "dinorun.PortalLevel",
+      "Level_I": "dinorun.TreeStumpGapLevel",
       "Level_J": "dinorun.StartingLevel",
       "Level_K": "dinorun.EndLevel",
       "Level_L": "dinorun.ResetLevel"

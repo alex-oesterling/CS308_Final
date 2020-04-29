@@ -3,7 +3,7 @@
   "gamePreviewGIF": "varun.gif",
   "savingEnabled": "true",
   "buttonArrangement": [
-    "1 Player",
-    "2 Player"
+    "Player 1 - New Game",
+    "Load Game"
   ]
 }

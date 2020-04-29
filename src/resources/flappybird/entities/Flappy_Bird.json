@@ -3,7 +3,7 @@
   "yPos": 100,
   "scheme": "Keyboard",
   "permeable": false,
-  "health": 100,
+  "health": 1,
   "xPos": 100,
   "xVel": 10,
   "maxXVel": 1000,
