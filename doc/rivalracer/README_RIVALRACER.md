@@ -1,1 +1,0 @@
-##Note: IntelliJ isn't letting you run Rival Racer if the folder is copied from the doc folder. In reality, you would create the JSON files within the resources folder to avoid any transfer issues.  
