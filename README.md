@@ -1,4 +1,6 @@
-BOOGA
+### *This is my final project for CS308: Advanced Software Design and Implementation. This project was created using the Agile Project Management strategy with weekly sprints over the course of a month. Due to Covid-19, we worked virtually and had daily calls where we updated each other on progress and merged our work. I primarily worked in the src.ooga.model.actions package, as well as writing the EntityWrapper class hierarchy (EntityWrapper, EntityModel, EntityView) which actions operate on. I also helped write components of these entities in the src.ooga.model.controlschemes package, among other things.*
+
+BOOGA (Bob's Object Oriented Game Arcade)
 ====
 
 This project implements a player for multiple related games.
